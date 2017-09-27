@@ -1,0 +1,60 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: gray;
+}
+
+h1 {
+  background-color: #F5F5F5;
+  text-align: center;
+  font-style: bold;
+  font-size: 4em;
+  color: black;
+}
+
+h2, h3 {
+  font-size: 2.5em;
+  line-height: 1.5em;
+  font-weight: 400;
+  color: #F5F5F5;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2%;
+  text-align: left;
+}
+
+.centered {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: justify;
+  color: black;
+  font-size: 1.5em;
+}
+
+.flipped {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+ul > li > a {
+  font-size: 1.8em;
+  color: #F5F5F5;
+  margin-right: 2em;
+}
+
+.margin {
+  margin-left: 20%;
+}
+
+#margin2 {
+  margin-left: 6%;
+}
