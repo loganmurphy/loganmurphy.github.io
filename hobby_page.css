@@ -10,20 +10,44 @@ h1 {
   font-style: bold;
   font-size: 4em;
   color: black;
+  padding: .113em;
+}
+
+.flow {
+  display: flex;
+  flex-flow: column;
 }
 
 h2, h3 {
-  font-size: 2.5em;
+  font-size: 2.75em;
   line-height: 1.5em;
   font-weight: 400;
   color: #F5F5F5;
+}
+
+@media screen and (max-width: 480px) {
+    h2, h3 {
+      font-size: 2em;
+      line-height: 1em;
+      font-weight: 400;
+      color: #F5F5F5;
+    }
 }
 
 .wrap {
   display: flex;
   align-items: center;
   padding-bottom: 2%;
+  padding-top: 2%;
   text-align: left;
+}
+
+.padded {
+  border-radius: 50%;
+  border: transparent;
+  box-shadow: 5px 5px #F5F5F5;
+  margin-bottom: 2em;
+
 }
 
 .centered {
@@ -37,24 +61,29 @@ p {
   margin-bottom: 1em;
   text-align: justify;
   color: black;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
-.flipped {
-  display: flex;
-  flex-direction: row-reverse;
+@media screen and (min-width: 1000px) {
+  .flipped {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 }
 
 ul > li > a {
-  font-size: 1.8em;
-  color: #F5F5F5;
-  margin-right: 2em;
+  font-size: 2em;
+  padding-right: 1.5em;
+  color: #F5F5F5
 }
 
-.margin {
-  margin-left: 20%;
+
+.links {
+  font-size: 2.5em;
+  padding-right: 1em;
+  color: #F5F5F5
 }
 
-#margin2 {
-  margin-left: 6%;
+.navbar-light .navbar-nav .nav-link {
+  color: #F5f5f5;
 }
